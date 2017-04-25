@@ -18,7 +18,7 @@ $factory->define(Alnutile\Webforms\Webform::class, function (Faker\Generator $fa
     $default = json_decode($default, true);
 
     return [
-        'name' => $faker->name,
-        'data' => $default
+        'data' => $default,
+        'default_values' => $default
     ];
 });

@@ -15,8 +15,8 @@ class CreateWebformsTable extends Migration
     {
         Schema::create('webforms', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
             $table->json('data')->nullable();
+            $table->json('default_values')->nullable();
             $table->timestamps();
         });
     }
