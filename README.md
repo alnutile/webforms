@@ -41,6 +41,8 @@ $ composer require alnutile/webforms
 
 ## Usage
 
+**< BETA do not use**
+
 ``` php
 $skeleton = new Alnutile\Webforms();
 echo $skeleton->echoPhrase('Hello, League!');
