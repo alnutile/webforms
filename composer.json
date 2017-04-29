@@ -32,7 +32,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Alnutile\\Webforms\\": "tests"
+            "Alnutile\\Webforms\\Tests\\": "tests/"
         }
     },
     "scripts": {
